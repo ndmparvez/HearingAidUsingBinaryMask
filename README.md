@@ -5,8 +5,8 @@
 >>This speech intelligibility problem is significantly removed by using binary mask algorithm.<br/>
 >>This proposed method is suitable for hearing aid application. Time frequency masking technique is introduced in this algorithm. Time frequency masks often take the values of ’zero’ and ’one’, resulting in mixture of two signals. Binary mask is calculated in classification stage and noise signal is removed.<br/>
 
->##Algorithm:
-
+>## Algorithm:
+>> ![algo](https://user-images.githubusercontent.com/71454390/134505911-32b5856b-ab41-452d-83ea-446cedd9e2da.jpg)
 >> * Binary mask algorithm discards those signals having noise. It is possible with the audio masking of speech signal.<br/>
 >> * After applying mixture of signals as input, signals are mapped from time domain to time-frequency region. This stage represents the signal in time-frequency region.<br/>
 >> * After mapping of signals is done separation of signals is needed for creation of mask. Original speech Signals are separated from the signals having noise.<br/>
