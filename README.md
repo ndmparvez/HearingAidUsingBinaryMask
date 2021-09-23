@@ -5,6 +5,10 @@
 >> * This speech intelligibility problem is significantly removed by using binary mask algorithm.<br/>
 >>* This proposed method is suitable for hearing aid application. Time frequency masking technique is introduced in this algorithm. Time frequency masks often take the values of ’zero’ and ’one’, resulting in mixture of two signals. Binary mask is calculated in classification stage and noise signal is removed.<br/>
 
+
+>## Abstract
+>> As we all know that the current hearing application is just enhancing the speech audibility only. The algorithm we have proposed here enhances both the speech intelligibility and audio intelligibility. Various speech enhancement algorithms were developed but only a couple of algorithms can be used for practical hearing aid application. We have used STFT for transforming the audio signal to T-F domain. We have created the binary mask based on comparing the local target energy with the long-term average of spectral energy of speech. In this, Matlab implementation of binary mask algorithm is provided which shows better results for speech intelligibility as compared to other algorithms.
+>> 
 >## Algorithm:
 >> ![algo](https://user-images.githubusercontent.com/71454390/134505911-32b5856b-ab41-452d-83ea-446cedd9e2da.jpg)
 >> * Binary mask algorithm discards those signals having noise. It is possible with the audio masking of speech signal.<br/>
